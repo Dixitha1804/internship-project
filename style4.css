@@ -1,0 +1,179 @@
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 80px;
+    background:rgb(103, 171, 111);
+    box-shadow:0 5px 15px rgba(0,0,0,0.6);
+    z-index: 999;
+    position:sticky;
+    top: 0;
+    left:0;
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#navbar li{
+list-style: none;
+padding: 0 20px;
+position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size:16px ;
+    font-weight: 600;
+    color: black;
+    transition:0.3s ease ;
+
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: rgb(236, 93, 37);
+}
+
+
+
+
+#navbar li a:hover::after{
+    content: "";
+    width:38%;
+    height: 2px;
+    background:black;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+
+}
+
+
+#review .box-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+   
+}
+
+#review .box-container .box{
+flex: 1 1 30rem;
+box-shadow: 0 .5rem 1.5rem black;
+border-radius: .5rem;
+padding: 3rem 2rem;
+position: relative;
+border: .1rem solid black;
+margin-left: 50px;
+margin-right: 50px;
+}
+   
+  
+#review .box-container .box .fa-quote-right{
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+  font-size: 6rem;
+  color: rgb(53, 55, 58);
+}
+
+#review .box-container .box p{
+    font-size: 20px;
+}
+#review .box-container .box h3{
+font-size: 19px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#review .box-container .box .star{
+    color: rgb(211, 176, 22);
+    font-size: 18px;
+}
+
+#review .box-container .box .user img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    align-items: center;
+    object-fit: cover;
+    margin-right: 1rem;
+
+}
+
+#review  h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+.section-m1{
+    margin: 40px 0;
+}
+
+
+
+footer a{
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+footer .Follow{
+    margin-top: 20px;
+}
+
+footer .Follow i{
+    color: #535151;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .colinstall img{
+    width: 30%;
+    height:40%
+}
+footer .pay img{
+    width: 50%;
+    height:60%  
+}
+
+
+
+footer .Follow i:hover,
+footer a:hover{
+    color: rgb(30, 72, 40);
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+
+
